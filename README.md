@@ -12,5 +12,7 @@ docker run --rm -p 8787:8787 -e PASSWORD=giveyourpassword ravimuraal/sap_mashr
 
 open your internet browser and trype "localhost:8787" and enter username as rstudio and password you gave in the above command.
 
+The codes provided corresponds to the mashr analysis using sorghum association panel. Effect size and standard erro of each GWAS results are compiled in single files, datBeta and datSE respectively. These two files serves as initial input files. Description of each step is given along with the codes in the image.
+
 # github repository
 
