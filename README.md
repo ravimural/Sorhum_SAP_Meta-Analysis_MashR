@@ -8,6 +8,7 @@ This docker image is built on rocker docker which is a easy way to run codes on 
 you can pull this docker image from docker hub as well using below command 
 
 docker pull ravimural/sap_mashr
+
 docker run --rm -p 8787:8787 -e PASSWORD=giveyourpassword ravimuraal/sap_mashr
 
 open your internet browser and trype "localhost:8787" and enter username as rstudio and password you gave in the above command.
